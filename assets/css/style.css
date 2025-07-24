@@ -1,19 +1,18 @@
 body {
-
-
     background-image: url(/assets/img/fondoecoexpress.png);
     background-repeat: repeat;
     background-size: 400px;
     background-attachment: fixed;
+    margin: 0%;
 }
 
 
 header {
-    font-size: 5rem;
     text-align: center;
-    background-color: rgb(95, 223, 95);
-    padding-top: 2%;
-    padding-bottom: 2%;
+    background: rgb(255, 245, 171);
+    background: radial-gradient(circle, rgba(255, 245, 171, 1) 0%, rgba(239, 212, 2, 1) 100%);
+    padding-top: 1%;
+    padding-bottom: 1%;
     font-family: "Roboto", sans-serif;
     color: white;
 }
@@ -22,50 +21,65 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-
     padding: 2%;
     font-family: "Roboto", sans-serif;
+}
+
+.container h1 {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+#retiro h1 {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-size: 2rem;
+}
+
+#retiro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container ul {
     font-size: 1.2rem;
 }
 
-#retiro {
-       display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .formulario input {
-    width: 20%;
+    font-family: "Roboto", sans-serif;
     padding: 1%;
     margin-bottom: 1%;
     box-sizing: border-box;
+    border-radius: 5px;
+    border-style: none;
     font-size: 1.2rem;
-}
-
-.formulario label {
-    font-size: 1.5rem;
-    box-sizing: border-box;
 }
 
 .formulario select {
-    width: 20%;
+    border-radius: 5px;
+    border-style: none;
+}
+
+.formulario label {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2rem;
+    box-sizing: border-box;
+    
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.formulario select {
+    font-family: "Roboto", sans-serif;
     padding: 1%;
     box-sizing: border-box;
     font-size: 1.2rem;
     margin-bottom: 1%;
-}
-
-.formulario button {
-    width: 20%;
-    padding: 10px;
-    margin: 5px 0;
-    box-sizing: border-box;
-    font-size: 1.2rem;
-    background-color: rgb(95, 223, 95);
-    color: white;
-    border: none;
-    cursor: pointer;
 }
