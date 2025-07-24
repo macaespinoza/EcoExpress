@@ -15,13 +15,25 @@
     <title>ecoEXPRESS</title>
 </head>
 
+<!-- MODULO 02 - TRABAJO 03 - GRUPO 01 -->
+<!-- ALBERTO POBLETE - DANIEL PALLARES - MACARENA ESPINOZA  -->
+
 <body>
 
     <header>
-        <img src="assets/img/imagotipo horizontal v1.png" alt="">
+        <!-- En la búsqueda por hacer el logo responsive, y que cambiase la versión del logo
+         con distintas resoluciones, buscamos hacerlo con CSS pero no lo logramos,
+         buscamos alguna solución alternativa y descubrimos la etiqueta <picture>
+            la cual incluye la subetiqueta <source> que incluye sus propios 
+            parámetros de media queries, y fue perfecto para lo que necesitábamos -->
+        <picture>
+            <source srcset="assets/img/imagotipo_horizontal_v1.png" media="(min-width: 901px)">
+            <source srcset="assets/img/logotipo.png" media="(min-width: 601px)">
+            <img src="assets/img/imagotipo_vertical.png" alt="Logo EcoExpress">
+        </picture>
     </header>
 
-    <!-- Estilo inline -->
+    <!-- Estilo inline, en los contenedores incluimos estilos dentro de sus etiquetas <div> -->
     <div class="container">
         <div id="materiales-aceptados" style="background-color: rgba(245, 222, 51, 0.6);
         backdrop-filter: blur(3px);
@@ -79,7 +91,8 @@
 
             <button>Agendar</button>
 
-            <!-- Estilo embebido: Botón Agendar -->
+            <!-- Estilo embebido: Botón Agendar. Aquí utilizamos la etiqueta <style>
+                para agregar un conjunto de propiedades al botón del formulario -->
             <style>
                 .formulario button {
                     font-family: "Roboto", sans-serif;
