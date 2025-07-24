@@ -12,7 +12,7 @@
 <body>
     <header>Bienvenidos a ECOEXPRESS</header>
     <div class="container">
-        <div id="materiales">
+        <div id="materiales-aceptados">
             <h1>Materiales aceptados</h1>
             <ul>
                 <li>Cartón: $10 por Kg</li>
@@ -23,10 +23,20 @@
         </div>
         <div id="retiro">
             <h1>Agendar retiro</h1>
-            <label for="Nombre">Nombre</label>
-            <input type="text" id="Nombre" placeholder="Tu nombre completo">
-            <label for="Dirección">Dirección</label>
-            <input type="text" id="Dirección" placeholder="Tu dirección">
+            <div class="formulario">
+                <label for="Nombre">Nombre</label> <br>
+                <input type="text" id="Nombre" placeholder="Tu nombre completo"> <br>
+                <label for="Dirección">Dirección</label> <br>
+                <input type="text" id="Dirección" placeholder="Tu dirección"><br>
+                <label for="lista-materiales">Material</label><br>
+                <select name="lista-materiales" id="lista-materiales">
+                    <option value="opcion1">Cartón</option>
+                    <option value="opcion2">Vidrio</option>
+                    <option value="opcion3">Plástico</option>
+                    <option value="opcion4">Electrónicos</option>
+                </select> <br>
+                <button>Agendar</button>
+            </div>
         </div>
 </body>
 </html>

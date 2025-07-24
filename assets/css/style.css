@@ -1,0 +1,51 @@
+header {
+    font-size: 5rem;
+    text-align: center;
+    background-color: rgb(95, 223, 95);
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family: "Roboto", sans-serif;
+    color: white;
+}
+
+.container {    
+    padding: 2%;
+    font-family: "Roboto", sans-serif;
+}
+
+.container ul {
+    font-size: 1.2rem;
+}
+
+.formulario input {
+    width: 20%;
+    padding: 1%;
+    margin-bottom: 1%;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+}
+
+.formulario label {
+    font-size: 1.5rem;
+    box-sizing: border-box;
+}
+
+.formulario select {
+    width: 20%;
+    padding: 1%;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    margin-bottom: 1%;
+}
+
+.formulario button {
+    width: 20%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    background-color: rgb(95, 223, 95);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
