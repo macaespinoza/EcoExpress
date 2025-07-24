@@ -1,0 +1,65 @@
+@media (max-width: 300px) {
+    header img {
+        width: 170px;
+        height: 70px;
+    }
+    .container h1 {
+        font-size: 1rem;
+    }
+    #retiro h1 {
+        font-size: 1rem;
+    }
+    ul li {
+        font-size: 1rem;
+    }
+    #retiro label {
+        font-size: 0.9rem;
+    }
+    #retiro input {
+        width: 70%;
+        font-size: 0.9rem;
+    }
+    #retiro select, #retiro option {
+        width: 40%;
+        font-size: 0.9rem;
+    }
+    #retiro button {
+        font-size: 0.6rem;
+        padding: 6px;
+        width: 60px;
+    }
+}
+@media (min-width: 301px) and (max-width: 450px) {
+   header img {
+    width: 260px;
+    height: 80px;
+}
+    .container h1 {
+    font-size: 1.5rem;
+}
+    #retiro h1 {
+        font-size: 1.5rem;
+    }
+    #retiro label {
+        font-size: 1.1rem;
+    }
+    #retiro input {
+        width: 75%;
+        font-size: 1.1rem;
+    }
+    #retiro select, #retiro option {
+        width: 50%;
+        font-size: 1.1rem;
+    }
+    #retiro button {
+        font-size: 0.9rem;
+        padding: 8px;
+        width: 90px;
+    }
+}
+@media (min-width: 451px) and (max-width: 600px) {
+    header img {
+        width: 400px;
+        height: 140px;
+    }
+}
